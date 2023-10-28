@@ -93,6 +93,7 @@ public class Deck : MonoBehaviour {
 			deco.loc.z = float.Parse (xDecos[i].att("z"));
 			decorators.Add (deco);
 		}
+
 		
 		// read pip locations for each card rank
 		// read the card definitions, parse attribute values for pips
@@ -175,8 +176,8 @@ public class Deck : MonoBehaviour {
 			Card card = cgo.GetComponent<Card>();
 			
 			cgo.transform.localPosition = new Vector3(i%13*3, i/13*4, 0);
-			
-			card.name = cardNames[i];
+
+            card.name = cardNames[i];
 			card.suit = card.name[0].ToString();
 			card.rank = int.Parse (card.name.Substring (1));
 			
