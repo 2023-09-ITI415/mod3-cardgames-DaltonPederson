@@ -389,6 +389,7 @@ public class Prospector : MonoBehaviour {
 				fsPts.Add(pO);
 				fsPts.Add(fsPosMid);
 				fsPts.Add(fsPosRun);
+				
 				fs =
 					Scoreboard.S.CreateFloatingScore
 					(ScoreManager.CHAIN, fsPts);
