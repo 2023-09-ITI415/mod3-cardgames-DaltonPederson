@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Card : MonoBehaviour {
+public class CardGolf : MonoBehaviour {
 	[Header("Set Dynamically")]
 
 	public string suit;
@@ -97,19 +97,19 @@ public class Card : MonoBehaviour {
 } // class Card
 
 [System.Serializable]
-public class Decorator{
-	public string	type;			// For card pips, tyhpe = "pip"
+public class DecoratorGolf{
+	public string	type;			// For card pips, type = "pip"
 	public Vector3	loc;			// location of sprite on the card
 	public bool		flip = false;	//whether to flip vertically
 	public float 	scale = 1.0f;
 }
 
 [System.Serializable]
-public class CardDefinition {
+public class CardDefinitionGolf {
 	public string face; //sprite to use for face cart
 	public int rank;    // value from 1-13 (Ace-King)
-	public List<Decorator>
-		pips = new List<Decorator>();  // Pips Used
+	public List<DecoratorGolf>
+		pips = new List<DecoratorGolf>();  // Pips Used
 }
 
 
