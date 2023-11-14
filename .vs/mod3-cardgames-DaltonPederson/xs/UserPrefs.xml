@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{9C077605-6CB0-D3F6-E4A4-6F78FDDBEF05}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02-Golf/__Scripts/CardGolf.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02-Golf/__Scripts/CardProspector1.cs">
     <Files>
-      <File FileName="Assets/02-Golf/__Scripts/Deck.cs" Line="76" Column="42" />
-      <File FileName="Assets/02-Golf/Resources/DeckXML.xml" Line="1" Column="1" />
-      <File FileName="Assets/02-Golf/Resources/LayoutXML.xml" Line="18" Column="74" />
-      <File FileName="Assets/01-Prospector/__Scripts/Card.cs" Line="16" Column="43" />
-      <File FileName="Assets/02-Golf/__Scripts/Card.cs" Line="23" Column="19" />
+      <File FileName="Assets/02-Golf/__Scripts/FloatingScore1.cs" Line="131" Column="2" />
+      <File FileName="Assets/02-Golf/__Scripts/ScoreManager1.cs" />
+      <File FileName="Assets/02-Golf/Scoreboard1.cs" Line="5" Column="23" />
+      <File FileName="Assets/02-Golf/__Scripts/CardProspector1.cs" Line="1" Column="6" />
+      <File FileName="Assets/02-Golf/__Scripts/CardGolf.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,12 +17,16 @@
               </Node>
               <Node name="02-Golf" expanded="True">
                 <Node name="__Scripts" expanded="True">
-                  <Node name="CardGolf.cs" selected="True" />
+                  <Node name="CardProspector1.cs" selected="True" />
                 </Node>
-                <Node name="Resources" expanded="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
