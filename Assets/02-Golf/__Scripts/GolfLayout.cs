@@ -1,8 +1,10 @@
-namespace Golf
-{
     using System.Collections.Generic;
     using UnityEngine;
     using Golf;
+
+namespace Golf
+{
+
     [System.Serializable]
     public class SlotDefGolf
     {

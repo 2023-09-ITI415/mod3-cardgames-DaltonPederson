@@ -136,9 +136,10 @@ GameObject:
   - component: {fileID: 827460512}
   - component: {fileID: 827460510}
   - component: {fileID: 827460509}
-  - component: {fileID: 827460516}
   - component: {fileID: 827460515}
   - component: {fileID: 827460514}
+  - component: {fileID: 827460516}
+  - component: {fileID: 827460517}
   m_Layer: 0
   m_Name: _MainCamera
   m_TagString: MainCamera
@@ -288,19 +289,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8228f48e4ac8a4b8196828c46733cf26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suitClub: {fileID: 0}
-  suitDiamond: {fileID: 0}
-  suitHeart: {fileID: 0}
-  suitSpade: {fileID: 0}
+  suitClub: {fileID: 21300000, guid: f2e3abd22e9ae4d17ab5c0659ff3e024, type: 3}
+  suitDiamond: {fileID: 21300000, guid: f8c2745f3b53149c595d8fde43185468, type: 3}
+  suitHeart: {fileID: 21300000, guid: 3f3ffa8970b63467cad6ba98725b1c95, type: 3}
+  suitSpade: {fileID: 21300000, guid: a7994da692eef4500be008b80674eecb, type: 3}
   faceSprites: []
   rankSprites: []
-  cardBack: {fileID: 0}
-  cardBackGold: {fileID: 0}
-  cardFront: {fileID: 0}
-  cardFrontGold: {fileID: 0}
+  cardBack: {fileID: 21300000, guid: a8185ed8d47594bb8a3b8e2d9233f769, type: 3}
+  cardBackGold: {fileID: 21300000, guid: 8ecf4828943064b3a96f6258b54c0f11, type: 3}
+  cardFront: {fileID: 21300000, guid: 873a7658b7ec742228520c7b15510f4d, type: 3}
+  cardFrontGold: {fileID: 21300000, guid: 944dc539459fe4109b973bd4c97f68ee, type: 3}
   startFaceUp: 1
-  prefabSprite: {fileID: 0}
-  prefabCard: {fileID: 0}
+  prefabSprite: {fileID: 100000, guid: beb7a63b77445497195d4dabe27a72d3, type: 3}
+  prefabCard: {fileID: 100000, guid: 985e14e3e76fa46bd92a27b06fd69ce5, type: 3}
   xmlr:
     xmlText: 
   cardNames: []
@@ -317,11 +318,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 827460508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c607ca064cc9b479c9b448fe55146df6, type: 3}
+  m_Script: {fileID: 11500000, guid: c86cf0c389e944284b3587ac0a99d877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deckXML: {fileID: 4900000, guid: 8f8ac8fdd3e7645bcaa12bd2f5df3fdf, type: 3}
-  layoutXML: {fileID: 4900000, guid: 2c4f61ed864f24b778d2efff974b8831, type: 3}
+  chain: 0
+  scoreRun: 0
+  score: 0
+--- !u!114 &827460517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827460508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce595d6f80a85447bbec29f242310eae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckXMLgolf: {fileID: 4900000, guid: 8f8ac8fdd3e7645bcaa12bd2f5df3fdf, type: 3}
+  layoutXMLgolf: {fileID: 4900000, guid: 2c4f61ed864f24b778d2efff974b8831, type: 3}
   xOffset: 3
   yOffset: -2.5
   layoutCenter: {x: 0, y: 0, z: 0}

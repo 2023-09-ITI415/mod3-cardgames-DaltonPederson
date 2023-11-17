@@ -1,9 +1,10 @@
-﻿namespace Golf
-{
-	using UnityEngine;
+﻿	using UnityEngine;
 	using System.Collections;
 	using System.Collections.Generic;
 	using Golf;
+
+namespace Golf
+{
 
 	public class DeckGolf : MonoBehaviour
 	{

@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{9C077605-6CB0-D3F6-E4A4-6F78FDDBEF05}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02-Golf/__Scripts/CardProspector1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02-Golf/__Scripts/DeckGolf.cs">
     <Files>
-      <File FileName="Assets/02-Golf/__Scripts/FloatingScore1.cs" Line="131" Column="2" />
-      <File FileName="Assets/02-Golf/__Scripts/ScoreManager1.cs" />
-      <File FileName="Assets/02-Golf/Scoreboard1.cs" Line="5" Column="23" />
-      <File FileName="Assets/02-Golf/__Scripts/CardProspector1.cs" Line="1" Column="6" />
-      <File FileName="Assets/02-Golf/__Scripts/CardGolf.cs" Line="1" Column="1" />
+      <File FileName="Assets/02-Golf/__Scripts/Golf.cs" Line="101" Column="1" />
+      <File FileName="Assets/02-Golf/__Scripts/DeckGolf.cs" Line="225" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,8 +14,9 @@
               </Node>
               <Node name="02-Golf" expanded="True">
                 <Node name="__Scripts" expanded="True">
-                  <Node name="CardProspector1.cs" selected="True" />
+                  <Node name="DeckGolf.cs" selected="True" />
                 </Node>
+                <Node name="Resources" expanded="True" />
               </Node>
             </Node>
           </Node>
