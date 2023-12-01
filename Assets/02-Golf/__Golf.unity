@@ -136,10 +136,10 @@ GameObject:
   - component: {fileID: 827460512}
   - component: {fileID: 827460510}
   - component: {fileID: 827460509}
+  - component: {fileID: 827460517}
   - component: {fileID: 827460515}
   - component: {fileID: 827460514}
   - component: {fileID: 827460516}
-  - component: {fileID: 827460517}
   m_Layer: 0
   m_Name: _MainCamera
   m_TagString: MainCamera
@@ -293,8 +293,36 @@ MonoBehaviour:
   suitDiamond: {fileID: 21300000, guid: f8c2745f3b53149c595d8fde43185468, type: 3}
   suitHeart: {fileID: 21300000, guid: 3f3ffa8970b63467cad6ba98725b1c95, type: 3}
   suitSpade: {fileID: 21300000, guid: a7994da692eef4500be008b80674eecb, type: 3}
-  faceSprites: []
-  rankSprites: []
+  faceSprites:
+  - {fileID: 21300000, guid: 9d8fab3c6464844838ffae4642f60a73, type: 3}
+  - {fileID: 21300000, guid: 358e672d325d049968c74ba4f394fe79, type: 3}
+  - {fileID: 21300000, guid: 1bd1bdc42f71848399a7ea3a57904612, type: 3}
+  - {fileID: 21300000, guid: e16eaea311d4c413aa59503c1300b4de, type: 3}
+  - {fileID: 21300000, guid: 54e4cd140e31640f8beff5a3793edc75, type: 3}
+  - {fileID: 21300000, guid: d19cbaa74d2a94c1a987c9bacaa84015, type: 3}
+  - {fileID: 21300000, guid: 0d003d68dcd164ea9bb2b9989eabf0aa, type: 3}
+  - {fileID: 21300000, guid: 0e7296c7223ba4436952f02b02546353, type: 3}
+  - {fileID: 21300000, guid: 707b71ba0087a4d6db60591bd48bd7b2, type: 3}
+  - {fileID: 21300000, guid: d4828a9b74a49457c9db8d12dac17205, type: 3}
+  - {fileID: 21300000, guid: abdbdcac044aa4187a8841534b07c757, type: 3}
+  - {fileID: 21300000, guid: 3765331ca9e504851a3f286db8c0dff7, type: 3}
+  rankSprites:
+  - {fileID: 21300002, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300004, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300006, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300008, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300010, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300012, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300014, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300016, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300018, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300020, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300022, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300024, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300026, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300028, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300030, guid: 00099276099e14575a547c49bb396743, type: 3}
+  - {fileID: 21300032, guid: 00099276099e14575a547c49bb396743, type: 3}
   cardBack: {fileID: 21300000, guid: a8185ed8d47594bb8a3b8e2d9233f769, type: 3}
   cardBackGold: {fileID: 21300000, guid: 8ecf4828943064b3a96f6258b54c0f11, type: 3}
   cardFront: {fileID: 21300000, guid: 873a7658b7ec742228520c7b15510f4d, type: 3}

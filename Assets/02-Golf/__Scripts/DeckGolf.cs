@@ -44,7 +44,7 @@ namespace Golf
 
 
 		// called by Prospector when it is ready
-		public void InitDeck(string deckXMLText)
+		public void InitDeck(string deckXMLgolfText)
 		{
 			// from page 576
 			if (GameObject.Find("_Deck") == null)
@@ -64,16 +64,16 @@ namespace Golf
 
 
 			// -------- end from page 576
-			ReadDeckGolf(deckXMLText);
+			ReadDeckGolf(deckXMLgolfText);
 			MakeCards();
 		}
 
 
 		// ReadDeck parses the XML file passed to it into Card Definitions
-		public void ReadDeckGolf(string deckXMLText)
+		public void ReadDeckGolf(string deckXMLgolfText)
 		{
 			xmlr = new PT_XMLReader();
-			xmlr.Parse(deckXMLText);
+			xmlr.Parse(deckXMLgolfText);
 
 			// print a test line
 			string s = "xml[0] decorator [0] ";

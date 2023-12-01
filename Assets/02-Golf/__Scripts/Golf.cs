@@ -75,7 +75,7 @@ namespace Golf
 			drawPile =
 				ConvertListCardsToListGolfSolitaire(deck.cards);
 
-			LayoutGame();
+			GolfLayoutGame();
 		}
 
 		List<GolfSolitaire>
@@ -102,7 +102,7 @@ namespace Golf
 			return (cd);
 		}
 
-		void LayoutGame()
+		void GolfLayoutGame()
 		{
 			if (layoutAnchor == null)
 			{
